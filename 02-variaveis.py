@@ -23,3 +23,7 @@ valueA = valueB
 valueB = temp
 print(f"Após a troca: A = {valueA} e B = {valueB}")
 print("\n")
+
+
+
+
