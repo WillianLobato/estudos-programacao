@@ -51,6 +51,7 @@ for( let i = 1 ; i <= 5 ; i++){
 
 console.log("Soma: ", soma)
 
+
 /*
 A variável soma acumula os valores: \(1 + 2 + 3 + 4 + 5 = 15\).
 
@@ -90,6 +91,7 @@ let contador1 = 1
 
 while( contador1 <= 5){
     console.log(contador1)
+    contador1++ // Incrementa o contador em 1
 }
 
 /*
@@ -197,9 +199,12 @@ console.log("Quiz interativo - Desafio — Laços de repetição")
 
 console.log("1. O que será impresso?")
 for (let int = 1 ; int <= 3 ; int++){
-    console(int)
+    console.log(int)
 }
 // 1, 2, 3
+// Correto! O contador começa em 1 e o laço termina depois que i passa a valer 4. Portanto, imprime 1, 2 e 3.
+
+
 
 console.log(" ")
 
@@ -207,9 +212,14 @@ console.log("2. Quantas vezes o bloco será executado?")
 let n2 = 10
 
 while( n2 < 5){
-    console.log(n1)
+    console.log(n2)
 }
 //Nenhuma vez
+// Correto! A condição 10 < 5 é falsa já na primeira verificação. O bloco não é executado
+
+
+
+
 
 console.log(" ")
 
@@ -218,7 +228,12 @@ let n3 = 10
 
 do{
     console.log(n3)
-} while (n3 < 5))
+} while (n3 < 5)
+// 10 será impresso uma vez
+// Correto! O do...while executa o bloco antes de verificar a condição. Depois de imprimir 10, a condição é falsa.
+
+
+
 
 console.log(" ")
 
@@ -227,13 +242,26 @@ let i = 1
 
 while (i <= 3){
     console.log(i)
+    i++ // ajustado para imprimir
 }
+// O contador não é atualizado
+// Correto! Como i nunca muda, a condição permanece verdadeira. É um laço infinito.
 
 
 
 console.log(" ")
-console.log("________________________________________")
+
+console.log("5. Qual estrutura garante pelo menos uma execução do bloco?")
+
 console.log(" ")
 
+console.log("6. Qual será a soma final?")
+let soma1 = 0
 
+for (let i = 1 ; i <= 4 ; i++){
+    soma += i
+}
+    console.log(soma)
 
+// while
+// Resposta correta: do...while. No do...while, a condição só é verificada depois da primeira execução.
