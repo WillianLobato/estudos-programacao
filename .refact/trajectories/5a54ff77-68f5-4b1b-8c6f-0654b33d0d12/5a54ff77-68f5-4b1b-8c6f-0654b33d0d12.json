@@ -1,0 +1,22 @@
+{
+  "id": "5a54ff77-68f5-4b1b-8c6f-0654b33d0d12",
+  "title": "New Chat",
+  "model": "",
+  "mode": "agent",
+  "tool_use": "agent",
+  "messages": [],
+  "created_at": "2026-10-22T14:22:43.064782+00:00",
+  "boost_reasoning": false,
+  "checkpoints_enabled": true,
+  "context_tokens_cap": null,
+  "auto_compression_cap": null,
+  "auto_compression_cap_pending": true,
+  "include_project_info": true,
+  "isTitleGenerated": false,
+  "auto_approve_editing_tools": true,
+  "auto_approve_dangerous_commands": false,
+  "autonomous_no_confirm": false,
+  "auto_enrichment_enabled": true,
+  "root_chat_id": "5a54ff77-68f5-4b1b-8c6f-0654b33d0d12",
+  "updated_at": "2026-10-22T14:22:43.106108+00:00"
+}

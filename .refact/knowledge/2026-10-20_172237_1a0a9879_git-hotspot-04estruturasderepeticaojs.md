@@ -6,7 +6,7 @@ tags:
 - git
 - hotspot
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-10-21
 filenames:
 - 04-estruturas-de-repeticao.js
 links: []
@@ -14,7 +14,7 @@ kind: code
 status: proposed
 superseded_by: null
 deprecated_at: null
-review_after: 2026-10-20
+review_after: 2026-10-21
 source_chat_id: null
 created_at: 2026-10-20T20:22:37.955074100+00:00
 summary: null
